@@ -6,3 +6,7 @@
 - [ ] Message Voting
 - [ ] Singleton Pattern
 - [ ] Multiplayer Game
+
+### Done
+
+- [x] Mongodb
