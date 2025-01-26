@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  backend-nodejs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3001:3003
+    environment:
+      - DATABASE_URL=postgresql://postgres:sheninthjr@localhost:5432/mydb
+    depends_on:
+      - postgres
+  postgres:
+    image: postgres
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=sheninthjr
+      - POSTGRES_DB=mydb
+    volumes:
+      - data:/var/lib/postgresql/data
+volumes:
+  data:
