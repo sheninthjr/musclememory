@@ -10,3 +10,5 @@
 ### Done
 
 - [x] Mongodb
+- [x] Typescript
+- [x] Docker
