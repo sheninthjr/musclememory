@@ -12,3 +12,11 @@
 - [x] Mongodb
 - [x] Typescript
 - [x] Docker
+
+### Necessary Things
+
+- [ ] Web 3
+- [ ] Motion
+- [ ] Redis
+- [ ] K8s
+- [ ] ArgoCd
