@@ -20,3 +20,4 @@
 - [ ] Redis
 - [ ] K8s
 - [ ] ArgoCd
+- [ ] Solidity
